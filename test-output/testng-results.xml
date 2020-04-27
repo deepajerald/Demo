@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13610" started-at="2020-04-08T19:46:04Z" finished-at="2020-04-08T19:46:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13610" started-at="2020-04-08T19:46:04Z" finished-at="2020-04-08T19:46:17Z">
+      <class name="SeleniumTest.OneBrowserManytests">
+        <test-method status="PASS" signature="callDriver1()[pri:0, instance:SeleniumTest.OneBrowserManytests@82b2fa]" name="callDriver1" is-config="true" duration-ms="5077" started-at="2020-04-08T19:46:04Z" finished-at="2020-04-08T19:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callDriver1 -->
+        <test-method status="PASS" signature="checkContact()[pri:0, instance:SeleniumTest.OneBrowserManytests@82b2fa]" name="checkContact" duration-ms="6200" started-at="2020-04-08T19:46:09Z" finished-at="2020-04-08T19:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContact -->
+        <test-method status="PASS" signature="checkCovidText()[pri:0, instance:SeleniumTest.OneBrowserManytests@82b2fa]" name="checkCovidText" duration-ms="119" started-at="2020-04-08T19:46:15Z" finished-at="2020-04-08T19:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCovidText -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:SeleniumTest.OneBrowserManytests@82b2fa]" name="closeDriver" is-config="true" duration-ms="2181" started-at="2020-04-08T19:46:15Z" finished-at="2020-04-08T19:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- SeleniumTest.OneBrowserManytests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

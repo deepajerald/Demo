@@ -39,6 +39,7 @@ public class Test1 extends  InitialiseDriver{
 		driver.get(prop.getProperty("url"));
 		 l = new LandingPage(driver);
 		log.info("browser launched");
+		System.out.println("Inside Test1");
 		//Actions a = new Actions(driver);
 		//a.moveToElement(l.getSigninLink()).click();
 		AssertJUnit.assertTrue(l.getNavBar().isDisplayed());

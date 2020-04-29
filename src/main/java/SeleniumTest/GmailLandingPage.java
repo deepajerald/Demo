@@ -12,6 +12,7 @@ public GmailLandingPage(WebDriver driver) {
 }
 
 public WebElement getSignin() {
+	System.out.println("GmailLandingPage");
 	return driver.findElement(signIn);
 }
 }

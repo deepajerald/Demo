@@ -41,6 +41,8 @@ public class Test1 extends  InitialiseDriver{
 		log.info("browser launched");
 		System.out.println("Inside Test1");
 		System.out.println("Inside Test2");
+		System.out.println("branch Test1");
+		System.out.println("branch Test2");
 		//Actions a = new Actions(driver);
 		//a.moveToElement(l.getSigninLink()).click();
 		AssertJUnit.assertTrue(l.getNavBar().isDisplayed());
